@@ -56,6 +56,10 @@ p{
 
 .col-n1, .col-n2, .col-n3{
 	width: $with-sec2;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
 
 @media(max-width:817px){

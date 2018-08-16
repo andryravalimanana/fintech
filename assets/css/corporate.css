@@ -4,13 +4,11 @@
 }
 
 .img-sect1 {
-  width: 125%;
-}
+  width: 125%; }
 
 h1 {
   font-size: 3rem;
-  color: #465457;
-}
+  color: #465457; }
 
 h3 {
   font-size: 1.2rem;
@@ -21,8 +19,7 @@ h3 {
 
 p {
   font-size: 14px;
-  color: #929292;
-}
+  color: #929292; }
 
 /* Background */
 .sec-2 {
@@ -34,8 +31,7 @@ p {
 
 /* Alignement */
 .mt-30 {
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .col-n1, .col-n2, .col-n3 {
   width: 22.667%;
@@ -66,11 +62,10 @@ p {
 
 /* Dimension */
 .w-75-p {
-  width: 75%;
-}
+  width: 75%; }
 
 .w-90 {
-  width: 90%;
+  width: 90%; 
 }
 
 .container, .container-sec2 {
@@ -79,14 +74,12 @@ p {
 
 ul.ul-style {
   color: #929292;
-  line-height: 2;
-}
+  line-height: 2; }
 
 .btn-textfield {
   border: none;
   background-color: #E6242F;
   color: white;
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 /*# sourceMappingURL=corporate.css.map */

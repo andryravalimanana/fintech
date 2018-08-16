@@ -1,0 +1,56 @@
+$black-color: #465457;
+$light-color: #929292;
+$red-color: #E6242F;
+
+.img-sect1{
+	width: 125%;
+}
+
+h1{
+	font-size: 3rem;
+    color: $black-color;
+}
+
+p{
+	font-size: 14px;
+    color: $light-color;
+}
+
+/* Background */
+.sec-2{
+	background-image: url('../img/bg02.jpg')
+}
+
+/* Alignement */
+
+.mt-30{
+	margin-top: 30px;
+}
+
+/* Dimension */
+
+.w-75-p{
+	width: 75%;
+}
+
+.w-90{
+	width: 90%;
+}
+
+.container{
+	margin-top: 100px;
+}
+
+ul{
+	&.ul-style{
+		color: $light-color;
+		line-height: 2;
+	}
+}
+
+.btn-textfield{
+    border: none;
+    background-color: #E6242F;
+    color: white;
+    border-radius: 0;
+}

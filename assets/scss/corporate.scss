@@ -1,4 +1,5 @@
-$black-color: #465457;
+$black-color-1: #465457;
+$black-color-2: #545A62;
 $light-color: #929292;
 $red-color: #E6242F;
 
@@ -8,7 +9,11 @@ $red-color: #E6242F;
 
 h1{
 	font-size: 3rem;
-    color: $black-color;
+    color: $black-color-1;
+}
+
+h3{
+	color: $black-color-2;	
 }
 
 p{

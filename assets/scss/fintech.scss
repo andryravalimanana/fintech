@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('assets/fonts/SourceSansPro-Light.otf');
+  }
+  
+  @font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('assets/fonts/SourceSansPro-Regular.otf');
+  }
+  
+  @font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url('assets/fonts/SourceSansPro-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src: url('assets/fonts/SourceSansPro-Semibold.otf');
+  }
+// Fintech
+.nav-bg{
+    background: rgb(252, 252, 252);
+    padding-bottom: 45px;
+}
+.bg-fintech{
+    background-size: contain !important;
+    height: 491px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    position: relative;
+}
+.bg-fintech:before{
+    content: '';
+    background: rgb(252, 252, 252);
+    position: absolute;
+    width: 100%;
+    height: 115%;
+    z-index: -1;
+}
+.container-fin{
+    max-width: 1400px;
+}
+.bg-fintech,.section-6{
+li{
+    list-style: disc;
+    }
+}
+.jumbo-fin-2{
+    background: transparent;
+    box-shadow: none;
+    padding-top: 8px;
+    h1{
+        color: rgba(57, 63, 75, 0.9);
+        font-size: 45px;
+        font-weight: bold;
+        span{
+            color: #e64047;
+        }
+    }
+    .expand-ul{
+        font-family: SourceSansPro-Regular;
+        font-size: 15px;
+        color: rgba(57, 63, 75, 0.5);
+        margin-left: 20px;
+        line-height: 26px;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+}
+.jumbo-fin{
+    padding-top: 110px !important;
+}
+
+.p-save-time{
+    font-family: SourceSansPro-Regular;
+    font-size: 13.5px;
+    color: rgba(57, 63, 75, 0.5);
+    line-height: 22px;
+}
+h5{
+    color: rgba(57, 63, 75, 0.8);
+    font-family: SourceSansPro-Regular;
+    font-size: 17px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+
+.eco-expand{
+    color: rgba(57, 63, 75, 0.8) !important;
+    font-size: 17px !important;
+    line-height: 38px;
+    li{
+        line-height: 34px;
+    }
+}
+.fa-minus{
+    width: 55px;
+    height: 5px;
+    background: rgba(57, 63, 75, 0.5);
+    margin-bottom: 14px;
+}
+.fa-minus:before{
+    content: '' !important;
+}
+.section-2{
+    margin-top: 150px;
+}
+.nav-br-c{
+    li a {
+        font-family: SourceSansPro-Semibold;
+        font-size: 14px;
+        color: #4a4949 !important;
+        margin-right: 16px;
+    }
+    li .active{
+        color: #e64047 !important;
+    }
+}
+
+.btn-ac{
+    border-radius: 0px 2px 2px 0px;
+    font-size: 14px;
+    font-family: SourceSansPro-Semibold;
+    background: #e64047;
+    border: 1px solid #e64047;
+    height: 34px;
+}
+.nav-input{
+    border-radius: 2px 0px 0px 2px;
+    height: 34px;
+    width: 180px;
+    font-size: 14px;
+    font-family: SourceSansPro-Regular;
+}
+.footer-fin{
+    width: 90%;
+    margin: 0 auto;
+    .pull-left{
+        float: left;
+    }
+    .pull-right{
+        float: right;
+    }
+}

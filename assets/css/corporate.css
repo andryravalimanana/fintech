@@ -12,6 +12,11 @@ p {
   color: #929292;
 }
 
+/* Background */
+.sec-2 {
+  background-image: url("../img/bg02.jpg");
+}
+
 /* Alignement */
 .mt-30 {
   margin-top: 30px;
